@@ -1,17 +1,31 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * <h1>Conta Bancaria</h1>
+ * Criação de conta bancaria e exibição dos dados pelo terminal
+ * <p>
+ * <b>Note:<b/> Leia atentamente a documentação desta classe para
+ * desfrutar dos recursos oferecidos pelo autor
+ * @author Jeferson Rodrigues
+ * @version 1.0
+ * @since 12/04/2025
+ */
+
 public class ContaTerminal{
 
+    /**
+     * Este método é usado para captar os dados do usuário e exibir na tela
+     * @param args
+     */
     public static void main(String[] args) {
         
-        //Conhecer e importar a classe Scanner
-
-        //Exibir as mensagens para o nosso usuário
-
-        //Obter pela scanner os valores digitados no terminal
-
-        //Exibir a mensagem criada.
+        /*  ----- Etapas do desafio -----
+            01 - Conhecer e importar a classe Scanner
+            02 - Exibir as mensagens para o nosso usuário
+            03 - obter pela scanner os valores digitados no terminal
+            04 - Exibir a mensagem criada.
+        */
 
         //Criando objeto Scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -30,8 +44,6 @@ public class ContaTerminal{
 
         //Imprimindo os dados
         System.out.println("Olá " + nomeCompleto +", obrigado por criar uma conta em nosso banco, sua agência é " + agencia +", conta " + conta +" e seu saldo " + saldo +" já está disponível para saque");
-
-
 
     }
 }
